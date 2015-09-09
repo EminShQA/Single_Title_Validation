@@ -4,7 +4,8 @@
 
   <groupId>core</groupId>
   <artifactId>Single_Title_Validation</artifactId>
-  <version>1.1</version>
+  <!-- <version>1.1</version> -->
+       <version>${build.version}</version>
   <packaging>jar</packaging>
 
   <name>Single_Title_Validation</name>
@@ -18,7 +19,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.11</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
